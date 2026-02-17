@@ -1,0 +1,32 @@
+{
+  "title": "Health AI Evidence and Evaluation Badges",
+  "description": "Badge definitions for communicating evidence strength and evaluation completeness of health AI systems",
+  "categories": {
+    "evidence_chain": [
+      { "badge": "Phase 1: Development", "color": "#e74c3c", "criteria": "Internal validation with TRIPOD+AI reporting" },
+      { "badge": "Phase 2: External Validation", "color": "#e67e22", "criteria": "Independent dataset validation at different site/time" },
+      { "badge": "Phase 3: Early Clinical", "color": "#f1c40f", "criteria": "Prospective clinical evaluation with DECIDE-AI" },
+      { "badge": "Phase 4: RCT", "color": "#2ecc71", "criteria": "Randomized controlled trial with CONSORT-AI" },
+      { "badge": "Phase 5: Post-Deployment", "color": "#27ae60", "criteria": "Ongoing monitoring with RE-AIM framework" }
+    ],
+    "reporting_standards": [
+      { "badge": "TRIPOD+AI", "color": "#3498db", "criteria": "Compliant with TRIPOD+AI checklist" },
+      { "badge": "CONSORT-AI", "color": "#3498db", "criteria": "Compliant with CONSORT-AI extension" },
+      { "badge": "DECIDE-AI", "color": "#3498db", "criteria": "Compliant with DECIDE-AI guideline" },
+      { "badge": "CLAIM", "color": "#3498db", "criteria": "Compliant with CLAIM imaging checklist" },
+      { "badge": "STARD-AI", "color": "#3498db", "criteria": "Compliant with STARD-AI diagnostic accuracy" }
+    ],
+    "evaluation_quality": [
+      { "badge": "Calibrated", "color": "#9b59b6", "criteria": "Calibration metrics reported (slope, ECE, or Brier)" },
+      { "badge": "Fair", "color": "#9b59b6", "criteria": "Subgroup fairness analysis reported" },
+      { "badge": "Abstention-Capable", "color": "#9b59b6", "criteria": "Selective prediction or conformal prediction implemented" },
+      { "badge": "DCA Reported", "color": "#9b59b6", "criteria": "Decision curve analysis with net benefit reported" },
+      { "badge": "Multi-Site", "color": "#9b59b6", "criteria": "Validated at 3+ independent clinical sites" }
+    ],
+    "regulatory": [
+      { "badge": "FDA Authorized", "color": "#1abc9c", "criteria": "FDA 510(k), De Novo, or PMA authorization" },
+      { "badge": "CE Marked", "color": "#1abc9c", "criteria": "European CE marking under MDR" },
+      { "badge": "WHO Listed", "color": "#1abc9c", "criteria": "WHO prequalified or recommended" }
+    ]
+  }
+}

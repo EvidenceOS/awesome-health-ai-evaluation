@@ -1,0 +1,65 @@
+# Evidence Chain Tracking Template
+# Track the evidence maturity of a health AI system through 5 phases
+
+system:
+  name: ""
+  developer: ""
+  domain: ""                        # e.g., "radiology", "cardiology", "TBI"
+  type: ""                          # e.g., "classification", "detection", "decision support"
+
+evidence_chain:
+  overall_phase: 0                  # Current highest completed phase (1-5)
+
+  phase_1_development:
+    status: "not_started"           # not_started, in_progress, completed
+    reporting_standard: "TRIPOD+AI"
+    publications: []
+    metrics_reported:
+      auroc: null
+      calibration: null
+      subgroup_analysis: false
+    notes: ""
+
+  phase_2_external_validation:
+    status: "not_started"
+    reporting_standard: "TRIPOD+AI Type 2b+"
+    publications: []
+    external_sites: 0
+    geographic_diversity: false      # Multiple countries/regions?
+    demographic_diversity: false     # Multiple demographic groups?
+    temporal_validation: false       # Different time period?
+    notes: ""
+
+  phase_3_early_clinical:
+    status: "not_started"
+    reporting_standard: "DECIDE-AI"
+    publications: []
+    clinical_setting: ""
+    workflow_integration: ""
+    override_rate: null
+    alert_fatigue_assessment: false
+    notes: ""
+
+  phase_4_rct:
+    status: "not_started"
+    reporting_standard: "CONSORT-AI"
+    design: ""                      # parallel, cluster, stepped-wedge, pragmatic
+    publications: []
+    sample_size: 0
+    primary_outcome: ""
+    cost_effectiveness: false       # CHEERS 2022 reported?
+    notes: ""
+
+  phase_5_post_deployment:
+    status: "not_started"
+    framework: "RE-AIM"
+    monitoring_metrics: []
+    drift_detection: false
+    adverse_event_reporting: false
+    notes: ""
+
+gaps:
+  - ""                              # Identified evidence gaps
+
+recommendations:
+  - ""                              # Recommended next steps

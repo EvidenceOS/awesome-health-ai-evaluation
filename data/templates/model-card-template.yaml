@@ -1,0 +1,110 @@
+# Health AI Model Card Template
+# Based on: Google Model Cards (Mitchell et al., 2019), FDA Transparency, EU AI Act Art 11
+# Usage: Copy this template and fill in fields for your health AI model
+
+model_details:
+  name: ""                          # Model name
+  version: ""                       # Version number
+  type: ""                          # e.g., classification, detection, segmentation, NLP
+  developers: []                    # Organizations and individuals
+  date: ""                          # Date of this model card version
+  license: ""                       # Model license
+  contact: ""                       # Point of contact email
+
+intended_use:
+  primary_use_cases:
+    - ""                            # e.g., "Chest X-ray triage for pneumothorax"
+  out_of_scope_uses:
+    - ""                            # e.g., "Pediatric patients under 18"
+  clinical_workflow:
+    integration_point: ""           # e.g., "Pre-read triage before radiologist review"
+    autonomy_level: ""              # L0-L5 per override taxonomy
+    human_oversight: ""             # Required/Optional/None
+
+training_data:
+  sources: []                       # Dataset names and descriptions
+  total_samples: 0                  # Total training samples
+  demographics:
+    age_range: ""
+    sex_distribution: ""
+    race_ethnicity: ""
+    geographic_origin: ""           # Countries/regions represented
+  temporal_range: ""                # Date range of training data
+  label_source: ""                  # e.g., "Board-certified radiologist consensus (3 readers)"
+  known_biases: []                  # Known biases in training data
+
+evaluation_data:
+  internal_validation:
+    dataset: ""
+    size: 0
+    split_method: ""                # e.g., "temporal split", "geographic split"
+  external_validation:
+    - dataset: ""
+      site: ""
+      size: 0
+      demographics: ""
+
+performance_metrics:
+  discrimination:
+    auroc: null                     # Area under ROC curve
+    auprc: null                     # Area under precision-recall curve
+    sensitivity: null               # At operating threshold
+    specificity: null               # At operating threshold
+    f1_score: null
+  calibration:
+    calibration_slope: null
+    ece: null                       # Expected calibration error
+    brier_score: null
+  clinical_utility:
+    net_benefit_at_threshold: null   # Decision curve analysis
+    nri: null                       # Net reclassification index
+  fairness:
+    metric_used: ""                 # e.g., "equalized odds", "demographic parity"
+    subgroup_results: []
+  abstention:
+    coverage: null                  # % of cases where model provides prediction
+    abstention_method: ""           # e.g., "conformal prediction", "selective prediction"
+
+evidence_chain:
+  current_phase: 0                  # 1-5 per evidence chain framework
+  phase_1_development:
+    completed: false
+    publication: ""
+    reporting_standard: ""          # e.g., "TRIPOD+AI Type 1b"
+  phase_2_external_validation:
+    completed: false
+    publication: ""
+    reporting_standard: ""
+  phase_3_early_clinical:
+    completed: false
+    publication: ""
+    reporting_standard: ""          # e.g., "DECIDE-AI"
+  phase_4_rct:
+    completed: false
+    publication: ""
+    reporting_standard: ""          # e.g., "CONSORT-AI"
+  phase_5_post_deployment:
+    completed: false
+    monitoring_framework: ""        # e.g., "RE-AIM"
+
+regulatory_status:
+  fda:
+    authorized: false
+    pathway: ""                     # 510(k), De Novo, PMA
+    date: ""
+    k_number: ""
+  ce_mark:
+    authorized: false
+    class: ""
+    notified_body: ""
+  other: []
+
+ethical_considerations:
+  bias_analysis: ""
+  demographic_parity_assessment: ""
+  known_limitations: []
+  failure_modes: []
+  deployment_recommendations: []
+
+caveats:
+  - ""                              # Known limitations and deployment conditions

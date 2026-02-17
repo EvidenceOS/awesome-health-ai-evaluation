@@ -1,0 +1,54 @@
+{
+  "standard": "TRIPOD+AI",
+  "full_name": "Transparent Reporting of a multivariable prediction model for Individual Prognosis Or Diagnosis + AI Extension",
+  "year": 2024,
+  "citation": "Collins et al. (2024) BMJ",
+  "url": "https://www.tripod-statement.org/",
+  "total_items": 27,
+  "categories": [
+    {
+      "name": "Title and Abstract",
+      "items": [
+        { "id": 1, "description": "Identify the study as developing and/or validating a multivariable prediction model, the target population, and the outcome to be predicted" },
+        { "id": 2, "description": "Provide an informative summary including objectives, study design, setting, participants, sample size, predictors, outcome, statistical analysis, results, and conclusions" }
+      ]
+    },
+    {
+      "name": "Introduction",
+      "items": [
+        { "id": 3, "description": "Explain the medical context and rationale for developing or validating the model, including references to existing models" }
+      ]
+    },
+    {
+      "name": "Methods — Source of Data",
+      "items": [
+        { "id": 4, "description": "Describe the study design or source of data, separately for development and validation datasets" },
+        { "id": 5, "description": "Specify key study dates, including start and end of accrual, and if applicable, follow-up" }
+      ]
+    },
+    {
+      "name": "Methods — Participants",
+      "items": [
+        { "id": 6, "description": "Specify key elements of the study setting, locations, and relevant dates" },
+        { "id": 7, "description": "Describe eligibility criteria, treatment, and data sources" }
+      ]
+    },
+    {
+      "name": "Methods — Outcome",
+      "items": [
+        { "id": 8, "description": "Clearly define the outcome predicted by the model, including how and when assessed" }
+      ]
+    },
+    {
+      "name": "AI-Specific Extensions",
+      "items": [
+        { "id": "AI-1", "description": "Describe the AI/ML model architecture, hyperparameters, and training procedure" },
+        { "id": "AI-2", "description": "Describe data preprocessing, feature engineering, and augmentation" },
+        { "id": "AI-3", "description": "Report hardware and software used for model development and evaluation" },
+        { "id": "AI-4", "description": "Describe any human-AI interaction in the prediction pipeline" },
+        { "id": "AI-5", "description": "Report model explainability methods used, if any" }
+      ]
+    }
+  ],
+  "note": "This is an abbreviated checklist. See tripod-statement.org for the complete 27-item checklist."
+}

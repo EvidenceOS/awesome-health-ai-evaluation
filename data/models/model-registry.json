@@ -1,0 +1,84 @@
+[
+  {
+    "name": "Viz.ai LVO",
+    "developer": "Viz.ai",
+    "domain": "Stroke detection (Large Vessel Occlusion)",
+    "fda_authorized": true,
+    "fda_date": "2018-02-13",
+    "ce_marked": true,
+    "evidence_phase": 4,
+    "key_gap": "Limited LMIC validation",
+    "key_publication": "https://doi.org/10.1161/STROKEAHA.119.027807"
+  },
+  {
+    "name": "IDx-DR",
+    "developer": "Digital Diagnostics",
+    "domain": "Diabetic retinopathy screening",
+    "fda_authorized": true,
+    "fda_date": "2018-04-11",
+    "ce_marked": true,
+    "evidence_phase": 4,
+    "key_gap": "Single-disease autonomous, limited generalizability",
+    "key_publication": "https://doi.org/10.1038/s41746-021-00487-4"
+  },
+  {
+    "name": "Qure.ai qXR",
+    "developer": "Qure.ai",
+    "domain": "Chest X-ray interpretation",
+    "fda_authorized": true,
+    "fda_date": "2020",
+    "ce_marked": true,
+    "evidence_phase": 3,
+    "key_gap": "Strong LMIC data, limited formal RCTs",
+    "key_publication": "https://doi.org/10.1016/S2589-7500(21)00116-8"
+  },
+  {
+    "name": "Caption Health AI",
+    "developer": "Caption Health",
+    "domain": "Echocardiography guidance",
+    "fda_authorized": true,
+    "fda_date": "2020-02-07",
+    "ce_marked": false,
+    "evidence_phase": 3,
+    "key_gap": "Novel AI-guided acquisition paradigm, limited long-term outcome data"
+  },
+  {
+    "name": "Paige.AI Prostate",
+    "developer": "Paige.AI",
+    "domain": "Prostate cancer detection in pathology",
+    "fda_authorized": true,
+    "fda_date": "2021-09-22",
+    "ce_marked": true,
+    "evidence_phase": 3,
+    "key_gap": "First AI in pathology, multi-site RCTs pending"
+  },
+  {
+    "name": "Eko AI",
+    "developer": "Eko Health",
+    "domain": "Cardiac murmur detection",
+    "fda_authorized": true,
+    "fda_date": "2020",
+    "ce_marked": true,
+    "evidence_phase": 3,
+    "key_gap": "Point-of-care, strong primary care data, limited specialist comparison"
+  },
+  {
+    "name": "Annalise.ai CXR",
+    "developer": "Annalise.ai",
+    "domain": "Chest X-ray (124 clinical findings)",
+    "fda_authorized": false,
+    "ce_marked": true,
+    "ce_date": "2022",
+    "evidence_phase": 3,
+    "key_gap": "Broadest CXR coverage but FDA authorization pending"
+  },
+  {
+    "name": "BRIDGE-TBI",
+    "developer": "EvidenceOS",
+    "domain": "Traumatic Brain Injury triage and CT reduction",
+    "fda_authorized": false,
+    "ce_marked": false,
+    "evidence_phase": 2,
+    "key_gap": "External validation ongoing, multi-site RCT planned"
+  }
+]

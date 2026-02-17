@@ -1,0 +1,61 @@
+{
+  "title": "Clinician Override Taxonomy for AI-Assisted Clinical Decision Making",
+  "description": "Classification of clinician-AI interaction levels based on degree of AI autonomy and human oversight",
+  "source": "Adapted from clinical decision support literature and regulatory frameworks",
+  "types": [
+    {
+      "type": 0,
+      "name": "AI Output Not Shown",
+      "description": "Clinician makes decision without AI. Used as baseline control arm.",
+      "ai_autonomy": "none",
+      "human_oversight": "full",
+      "use_case": "Control arm in human-AI collaboration studies",
+      "regulatory_class": "N/A"
+    },
+    {
+      "type": 1,
+      "name": "AI Output Shown, No Action Required",
+      "description": "AI output is displayed but clinician is not required to acknowledge or act on it.",
+      "ai_autonomy": "minimal",
+      "human_oversight": "full",
+      "use_case": "Passive decision support, alert displays",
+      "regulatory_class": "Clinical Decision Support (may be exempt from SaMD)"
+    },
+    {
+      "type": 2,
+      "name": "AI Output Shown, Clinician Must Acknowledge",
+      "description": "AI output is displayed and clinician must acknowledge they have seen it before proceeding.",
+      "ai_autonomy": "low",
+      "human_oversight": "full",
+      "use_case": "Active alerts, best practice reminders",
+      "regulatory_class": "Clinical Decision Support"
+    },
+    {
+      "type": 3,
+      "name": "AI Output Shown, Override Requires Justification",
+      "description": "AI recommendation is displayed and clinician must document a reason if they disagree.",
+      "ai_autonomy": "moderate",
+      "human_oversight": "high",
+      "use_case": "Triage recommendations, diagnostic suggestions with audit trail",
+      "regulatory_class": "SaMD (Class I-II depending on risk)"
+    },
+    {
+      "type": 4,
+      "name": "AI Recommendation with Mandatory Protocol",
+      "description": "AI recommendation triggers a protocol that must be followed unless formally overridden with documentation.",
+      "ai_autonomy": "high",
+      "human_oversight": "moderate",
+      "use_case": "Critical finding alerts, sepsis protocols, stroke pathways",
+      "regulatory_class": "SaMD (Class II-III)"
+    },
+    {
+      "type": 5,
+      "name": "AI Acts Autonomously with Human Notification",
+      "description": "AI takes autonomous action (e.g., orders scan, sends alert) and notifies clinician afterward.",
+      "ai_autonomy": "full",
+      "human_oversight": "minimal",
+      "use_case": "Autonomous diagnostic AI (e.g., IDx-DR), automated triage routing",
+      "regulatory_class": "SaMD (Class III), requires strongest evidence"
+    }
+  ]
+}
