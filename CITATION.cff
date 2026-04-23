@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this resource in your research, please cite it as below."
+type: dataset
+title: "awesome-health-ai-evaluation"
+abstract: >-
+  Curated collection of frameworks, standards, and methods for
+  evaluating health AI systems — from study design to post-deployment
+  monitoring. Covers TRIPOD+AI, PROBAST, DECIDE-AI, and domain-specific
+  evaluation approaches.
+authors:
+  - family-names: Ngum
+    given-names: Peter
+    orcid: "https://orcid.org/0009-0001-3635-8"; # TODO: Replace with real ORCID
+repository-code: "https://github.com/EvidenceOS/awesome-health-ai-evaluation"
+url: "https://evidenceos.com"
+license: Apache-2.0
+keywords:
+  - health-ai-evaluation
+  - tripod-ai
+  - clinical-ai-validation
+  - model-evaluation
+  - awesome-list
